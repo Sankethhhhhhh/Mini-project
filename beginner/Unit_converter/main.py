@@ -27,13 +27,11 @@ def convert_temperature(value, from_unit, to_unit):
     if from_unit == to_unit:
         return value
 
-    # Convert to Celsius first
     if from_unit == "F":
         value = (value - 32) * 5/9
     elif from_unit == "K":
         value = value - 273.15
 
-    # Convert from Celsius to target
     if to_unit == "F":
         return (value * 9/5) + 32
     elif to_unit == "K":

@@ -34,7 +34,7 @@ Renames the file if a duplicate exists.
 🚀 Installation
 Clone the repository:
 git clone (https://github.com/Sankethhhhhhh/Mini-project.git)
-cd Mini-project
+cd Mini-project/beginner/file-organiser
 
 Ensure Python 3 is installed:
 python --version
